@@ -1,4 +1,4 @@
-<form class="contact100-form validate-form">
+<form class="contact100-form validate-form" action="http://localhost/icecreamskuy/index.php/Koneksi/do_insert" method="POST">
                 <div class="wrap-input100 validate-input" data-validate="Name is required">
                   <span class="label-input100"></span>
                   <input class="input100" type="text" name="name" placeholder="Enter your name">
@@ -11,7 +11,7 @@
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="Message is required">
                   <span class="label-input100"></span>
-                  <textarea class="input100" type="text" name="message" placeholder="Enter Complaint Here"></textarea>
+                  <textarea class="input100" type="text" name="complaint" placeholder="Enter Complaint Here"></textarea>
                   <span class="focus-input100"></span>
                 </div>
                 <div class="container-contact100-form-btn">
